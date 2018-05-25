@@ -1,0 +1,4 @@
+<h1>Super Power Name: <%=@superpower.name%></h1>
+<p>Description: <%=@superpower.description%></p>
+
+<p><%= link_to "View all superheroes with that superpower", superheroes_path(search: @superpower.name) %><p>
