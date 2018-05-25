@@ -1,9 +1,9 @@
 <h2>All Superheroes</h2>
-
 <ul>
   <% @superheroes.each do |superhero| %>
     <li>
-      <%= superhero.super_name %>
+      <!-- trick question? starter code had super_name -->
+      <%= link_to(superhero.name, superhero) %>
     </li>
     <br>
   <% end %>
